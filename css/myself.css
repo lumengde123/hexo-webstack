@@ -7,7 +7,7 @@ body {
 
 /* 分类名字体为h4，这里修改h4大小 */
 h4, .h4 {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* 整个侧边栏设置 */
@@ -57,8 +57,9 @@ h4, .h4 {
     
 }
 
-/* 每个链接盒子设置 */
+/* 每个链接盒子 设置背景边距专用 */
 .xe-widget.xe-conversations {
     
 }
+
 
