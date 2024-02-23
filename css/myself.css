@@ -30,7 +30,7 @@ h4, .h4 {
 /* 侧边栏内部的 每个菜单box设置 */
 .sidebar-menu .main-menu a {
     color: #979898;                         /* icon+字 未选择时的默认颜色 */
-    padding: 12px 8px;
+    padding: 12px 4px;
     border-bottom: 1px solid #313437;
 }
 
