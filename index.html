@@ -236,6 +236,29 @@
     
     </nav>
     
+    <section class="sousuo">
+      <div class="search">
+        <div class="search-box">
+          <span class="search-icon" style="background: url(/images/search_icon.png) 0px 0px; opacity: 1;"></span>
+          <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
+          <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+        <!-- 搜索热词 -->
+        <div class="box search-hot-text" id="box" style="display: none;">
+          <ul></ul>
+        </div>
+        <!-- 搜索引擎 -->
+        <div class="search-engine" style="display: none;">
+          <div class="search-engine-head">
+            <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+            <div class="search-engine-tool">搜索热词： <span id="hot-btn" style="background-image: url(/images/off_on.png);"></span></div>
+          </div>
+          <ul class="search-engine-list search-engine-list_zmki_ul">
+          </ul>
+        </div>
+    </section>
+    <script>search('/images/search_icon.png')</script>
+  
   
   
     
@@ -633,6 +656,22 @@
             <strong>SMS - Active</strong>
           </a>
           <p class="overflowClip_2">在线接受短信的虚拟服务平台</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://archive.org/web/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://archive.org/web/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="/images/logos/waybackmachine.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Wayback Machine</strong>
+          </a>
+          <p class="overflowClip_2">不定时爬取和备份互联网八百多亿个页面，可用来查找已失效网页内容</p>
         </div>
       </div>
     </div>
