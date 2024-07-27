@@ -2,35 +2,40 @@
 
 /* 全站字体大小 */
 body {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 /* 分类名字体为h4，这里修改h4大小 */
 h4, .h4 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* 整个侧边栏设置 */
 .sidebar-menu {
-    width: 200px;
+    width: 250px;
     background: #2c2e2f;
 }
 
 
 /* 侧边栏内部的 菜单整体box设置 */
 .sidebar-menu .main-menu {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 10px;
+    padding-left: 0 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     list-style: none;
 }
 
+.sidebar-menu .logo-env {
+    padding: 19px 30px;
+    border-bottom: 1px solid #313437;
+}
 
 /* 侧边栏内部的 每个菜单box设置 */
 .sidebar-menu .main-menu a {
-    color: #979898;                         /* icon+字 未选择时的默认颜色 */
-    padding: 12px 4px;
+    color: #979898;
+    text-decoration: none;
+    display: block;
+    padding: 13px 5px;
     border-bottom: 1px solid #313437;
 }
 
@@ -47,10 +52,6 @@ h4, .h4 {
 /* 导航目录二级菜单
     - 调整至居中，不使用icon
 */
-.sidebar-menu .main-menu ul li a {
-    /* padding-left: 15px; */
-    /* padding: 2px 15px; */
-}
 
 /* 导航主体box设置 */
 .page-container .main-content {
